@@ -8,12 +8,6 @@
 
 namespace mat{
 
-    // class SquareMat{
-    // private:
-    //     int size;
-    //     double **val;
-
-    // public:
     //according to the rule of three we need constructor, destructor and placement operator
 SquareMat::SquareMat(int n):size(n){//constuctor
     if(n<=0){
